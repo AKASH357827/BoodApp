@@ -1,12 +1,11 @@
 {
-  "homepage": "https://akash357827.github.io/",
+  
   "name": "reactproject",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+   
     "dev": "vite",
     "server": "json-server --watch src/assets/db.json --port 3000",
     "start": "concurrently \"npm run dev\" \"npm run server\"",
