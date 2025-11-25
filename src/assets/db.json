@@ -1,0 +1,150 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Demo User",
+      "email": "demo@example.com",
+      "password": "demo123",
+      "address": "",
+      "orders": []
+    },
+    {
+      "id": "b413",
+      "name": "akash",
+      "email": "a@1",
+      "password": "12",
+      "address": "",
+      "orders": []
+    },
+    {
+      "id": "8955",
+      "name": "akash",
+      "email": "a@2",
+      "password": "12",
+      "address": "",
+      "orders": []
+    },
+    {
+      "id": "23e7",
+      "name": "akash",
+      "email": "a@3",
+      "password": "123",
+      "address": "",
+      "orders": []
+    },
+    {
+      "id": "c337",
+      "name": "akashln",
+      "email": "a@4",
+      "password": "123",
+      "address": "",
+      "orders": []
+    },
+    {
+      "id": "f84d",
+      "name": "prashanth",
+      "email": "prashanth@gmail.com",
+      "password": "456",
+      "address": "",
+      "orders": []
+    },
+    {
+      "id": "d80a",
+      "name": "we",
+      "email": "dfg@12",
+      "password": "12",
+      "address": "",
+      "orders": []
+    },
+    {
+      "id": "8bc0",
+      "name": "aregf",
+      "email": "sdav@1",
+      "password": "qa",
+      "address": "",
+      "orders": []
+    },
+    {
+      "id": "fc41",
+      "name": "erg",
+      "email": "dfgv@1",
+      "password": "qw",
+      "address": "",
+      "orders": []
+    },
+    {
+      "id": "7985",
+      "name": "keshavareddy",
+      "email": "k@1",
+      "password": "12",
+      "address": "",
+      "orders": []
+    }
+  ],
+  "orders": [
+    {
+      "id": "16bf",
+      "userId": "b413",
+      "items": [
+        {
+          "id": 13,
+          "name": "Mezze Platter",
+          "category": "Appetizers",
+          "description": "Hummus, falafel, tabouleh",
+          "price": 18.99,
+          "image": "https://images.unsplash.com/photo-1542345812-d98b5cd6cf98",
+          "restaurantId": 6,
+          "quantity": 1
+        },
+        {
+          "id": 12,
+          "name": "Shawarma Plate",
+          "category": "Main Course",
+          "description": "Grilled meat with rice and salad",
+          "price": 15.99,
+          "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783",
+          "restaurantId": 6,
+          "quantity": 1
+        }
+      ],
+      "address": {
+        "street": "Add",
+        "apartment": "qwdf",
+        "city": "Bengaluru",
+        "state": "",
+        "zipCode": "wejfb",
+        "phone": "98447 58372"
+      },
+      "status": "Received",
+      "total": 39.98,
+      "orderDate": "2025-11-17T11:07:05.450Z"
+    },
+    {
+      "id": "e932",
+      "userId": "fc41",
+      "items": [
+        {
+          "id": 10,
+          "name": "Kung Pao Chicken",
+          "category": "Main Course",
+          "description": "Spicy diced chicken with peanuts",
+          "price": 14.99,
+          "image": "https://images.unsplash.com/photo-1525755662778-989d0524087e",
+          "restaurantId": 5,
+          "quantity": 1
+        }
+      ],
+      "address": {
+        "street": "banaglore",
+        "apartment": "werwetw",
+        "city": "Bangalore",
+        "state": "",
+        "zipCode": "wejfb",
+        "phone": "98447 58372"
+      },
+      "status": "Received",
+      "total": 19.990000000000002,
+      "orderDate": "2025-11-18T17:11:29.565Z"
+    }
+  ]
+}
